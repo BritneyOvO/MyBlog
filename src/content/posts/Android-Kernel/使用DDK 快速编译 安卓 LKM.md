@@ -100,7 +100,7 @@ ddk自带的模板就是这种形式，只需要修改 `.devcontainer/devcontain
 
 ## 使用 ddk-builder 自行组装镜像
 
-​`注意：这种方法会在不同项目中重复构建镜像，即使features的内容是完全相同的`
+​`注意：这种方法会在不同项目中重复构建镜像，相同的features在不同项目中使用会公用image`
 
 官方同样给了示例，在[ddk/module_template at main · Ylarod/ddk](https://github.com/Ylarod/ddk/tree/main/module_template) 中使用的就是这个方式
 
